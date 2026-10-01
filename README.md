@@ -81,6 +81,12 @@ Lab_TSSR/
     └── screenshots/      # captures des projets à ajouter
 ```
 
+## 👤 Parcours professionnel
+
+Le portfolio complète un parcours de **Technicien Système et Réseaux** avec des expériences en Active Directory, déploiement de postes Windows, gestion de parc et virtualisation.
+
+Le parcours comprend notamment une expérience de **Gestionnaire Infrastructures Matériel Logiciel** (2024–2025), une expérience d'**Analyste IT** (2023–2024), un stage consacré à la **virtualisation VMware ESXi et à une migration Windows Server 2012 → 2016** (2022), ainsi qu'une mission de **déploiement Windows 10** (2020). Voir [le profil détaillé](docs/profile.md).
+
 ## 🖥️ Homelab
 
 Le laboratoire sert à reproduire des scénarios proches de ceux rencontrés en entreprise :
