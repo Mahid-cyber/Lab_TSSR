@@ -1,22 +1,19 @@
 # Captures du laboratoire
 
-Ce dossier est destiné aux captures utilisées dans les fiches projets du portfolio.
+Ce dossier contient les captures utilisées dans les fiches projets du portfolio.
 
-## Captures à ajouter
+## MDT / WDS / PXE
 
-### MDT / WDS / PXE
-- Architecture du serveur
-- Configuration WDS
-- Configuration MDT
-- PXE UEFI réussi
-- Erreur 5616 / 15299 avant correction
-- Version de `Microsoft.BDD.Utility.dll`
-- Déploiement réussi avec 0 erreur / 0 avertissement
-- Validation sur Hyper-V
-- Validation sur serveur physique
+Les quatre captures actuellement publiées dans ce dossier sont :
 
-### Autres projets
-Créer ensuite un sous-dossier par projet :
+- `01-erreur-5616.webp` — erreur MDT 5616 / 15299 ;
+- `02-partitions-gpt.webp` — vérification GPT / EFI et volumes ;
+- `03-dll-avant-correctif.webp` — version initiale de `Microsoft.BDD.Utility.dll` ;
+- `04-deploiement-success.webp` — validation finale, 0 erreur / 0 avertissement.
+
+## Autres projets
+
+De futurs sous-dossiers pourront être créés pour :
 
 - `active-directory/`
 - `virtualisation/`
