@@ -190,6 +190,33 @@ UEFI / GPT
           </div>
         </article>
 
+
+        <section class="evidence-section" aria-labelledby="evidence-title">
+          <div class="evidence-heading">
+            <p class="project-kicker">05 — PREUVES VISUELLES</p>
+            <h3 id="evidence-title">Diagnostic & validation</h3>
+            <p>Une sélection de captures réelles réalisées pendant le dépannage et la validation du déploiement.</p>
+          </div>
+          <div class="evidence-grid">
+            <figure class="evidence-card">
+              <img src="docs/screenshots/01-erreur-5616.webp" alt="Écran de déploiement MDT affichant l'erreur 5616 / 15299 Verify BCDBootEx" loading="lazy">
+              <figcaption><strong>01 — Incident</strong><span>Erreur MDT 5616 / 15299 — Verify BCDBootEx</span></figcaption>
+            </figure>
+            <figure class="evidence-card">
+              <img src="docs/screenshots/02-partitions-gpt.webp" alt="DiskPart affichant les partitions GPT EFI, Windows et Recovery" loading="lazy">
+              <figcaption><strong>02 — Vérification</strong><span>Partitionnement GPT / EFI et volumes Windows dans WinPE</span></figcaption>
+            </figure>
+            <figure class="evidence-card">
+              <img src="docs/screenshots/03-dll-avant-correctif.webp" alt="Propriétés de Microsoft.BDD.Utility.dll avant le correctif" loading="lazy">
+              <figcaption><strong>03 — Version initiale</strong><span>Microsoft.BDD.Utility.dll — version 6.3.8456.1000</span></figcaption>
+            </figure>
+            <figure class="evidence-card">
+              <img src="docs/screenshots/04-deploiement-success.webp" alt="Deployment Summary affichant Success, zéro erreur et zéro avertissement" loading="lazy">
+              <figcaption><strong>04 — Validation</strong><span>Windows 11 26H2 — Success, 0 erreur / 0 avertissement</span></figcaption>
+            </figure>
+          </div>
+          <p class="evidence-note">Captures du laboratoire. Les informations sensibles doivent rester exclues avant publication.</p>
+        </section>
         <div class="cards project-grid">
           <article class="card project-small">
             <span class="icon">AD</span>
