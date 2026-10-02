@@ -183,6 +183,12 @@ Après application du correctif Microsoft :
 
 Le fichier a été mis à jour dans les outils MDT concernés, puis le **Deployment Share a été complètement régénéré** afin d'intégrer la nouvelle version dans WinPE.
 
+## 📸 Galerie des preuves
+
+La galerie du portfolio utilise quatre captures du laboratoire : erreur 5616/15299, diagnostic GPT/EFI, version initiale de `Microsoft.BDD.Utility.dll`, puis validation finale.
+
+Fichiers : `docs/screenshots/01-erreur-5616.webp`, `docs/screenshots/02-partitions-gpt.webp`, `docs/screenshots/03-dll-avant-correctif.webp`, `docs/screenshots/04-deploiement-success.webp`.
+
 ## Validation
 
 La solution a été reproduite avec succès dans deux environnements :
@@ -246,7 +252,7 @@ Ce projet met notamment en évidence :
 Les captures du laboratoire doivent être ajoutées dans :
 
 ```
-docs/screenshots/mdt/
+docs/screenshots/
 ```
 
 Les captures recommandées sont :
