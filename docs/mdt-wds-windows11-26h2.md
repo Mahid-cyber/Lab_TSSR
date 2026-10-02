@@ -249,26 +249,9 @@ Ce projet met notamment en évidence :
 
 ## Preuves visuelles
 
-Les captures du laboratoire doivent être ajoutées dans :
+Les quatre captures actuellement publiées sont disponibles dans `docs/screenshots/` et sont intégrées à la galerie du portfolio.
 
-```
-docs/screenshots/
-```
-
-Les captures recommandées sont :
-
-1. Architecture du serveur ;
-2. Configuration MDT ;
-3. Configuration WDS ;
-4. démarrage PXE UEFI ;
-5. erreur 5616/15299 avant correction ;
-6. partitionnement GPT/EFI ;
-7. test `bcdboot` réussi ;
-8. version `Microsoft.BDD.Utility.dll` avant correction ;
-9. version après correction ;
-10. Deployment Summary final ;
-11. validation Hyper-V ;
-12. validation serveur physique.
+D'autres preuves pourront être ajoutées lors de la documentation des étapes complémentaires du projet.
 
 ## Sécurité et publication
 
