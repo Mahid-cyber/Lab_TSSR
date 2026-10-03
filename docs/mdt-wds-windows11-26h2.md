@@ -249,7 +249,7 @@ Ce projet met notamment en évidence :
 
 ## Preuves visuelles
 
-Les captures publiées sont disponibles dans `docs/screenshots/` et intégrées à la galerie du portfolio. Une cinquième capture finale est prévue sous `docs/screenshots/05-deploiement-final.png`.
+Les captures publiées sont disponibles dans `docs/screenshots/` et intégrées à la galerie du portfolio. Une cinquième capture finale est prévue sous `docs/screenshots/05-deploiement-final.webp.png`.
 
 D'autres preuves pourront être ajoutées lors de la documentation des étapes complémentaires du projet.
 
