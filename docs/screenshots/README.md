@@ -20,3 +20,5 @@ De futurs sous-dossiers pourront être créés pour :
 - `linux-docker-glpi/`
 
 > Ne jamais publier de mot de passe, clé, token, adresse IP publique ou information confidentielle.
+
+- `05-deploiement-final.webp.png` — preuve finale du déploiement Windows 11 26H2.
