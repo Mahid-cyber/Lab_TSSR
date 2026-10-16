@@ -308,3 +308,59 @@ h1 span{color:var(--blue)}
   .closing-section{padding:44px 0}
   .footer-inner{align-items:flex-start;flex-direction:column;justify-content:center;padding:20px 0;gap:9px}
 }
+
+
+/* Thème bleu renforcé — inspiration carrière IT */
+:root{
+  --page-blue:#eaf2ff;
+  --page-blue-2:#dce9ff;
+  --deep-blue:#153b86;
+  --mid-blue:#2055b8;
+  --accent:#2864dc;
+}
+body{background:var(--page-blue)}
+.site-header{background:rgba(241,246,255,.94);border-bottom-color:#cfddf5}
+.hero{
+  background:
+    radial-gradient(circle at 78% 25%,rgba(139,194,255,.22),transparent 31%),
+    radial-gradient(circle at 8% 90%,rgba(55,198,165,.12),transparent 28%),
+    linear-gradient(125deg,#153879 0%,#2055b8 57%,#2864dc 100%);
+}
+.hero:before{background:rgba(170,205,255,.08)}
+.hero:after{background:rgba(110,232,199,.08)}
+.hero .eyebrow{color:#c7e1ff}
+.hero .eyebrow-dot{background:#61e0b6;box-shadow:0 0 0 4px rgba(97,224,182,.16)}
+.hero h1{color:#fff}
+.hero h1 span{color:#a9d6ff}
+.hero-lead{color:#e1ebff}
+.hero-lead strong{color:#fff}
+.hero-note{color:#d7e5ff}
+.note-icon{background:rgba(112,231,195,.16);color:#8ff0d0}
+.button-secondary{background:rgba(255,255,255,.96);border-color:rgba(255,255,255,.75);color:#17356c}
+.focus-card{border-color:rgba(255,255,255,.58);box-shadow:0 25px 70px rgba(5,24,68,.25)}
+.proof-strip{background:linear-gradient(100deg,#183f8b,#2055b8);border-color:rgba(255,255,255,.16)}
+.proof-item{border-color:rgba(255,255,255,.19)}
+.proof-item strong{color:#fff}
+.proof-item span{color:#d5e4ff}
+.section-white{background:#eaf2ff}
+.section-tint{background:#dce9ff;border-block-color:#cadaf5}
+.project-section{background:#e4eeff;border-block-color:#cddcf5}
+.value-card,.expertise-card,.featured-project,.secondary-project,.education-card,.method-grid article,
+.evidence-card,.roadmap-item{box-shadow:0 9px 27px rgba(25,61,126,.055)}
+.value-card,.expertise-card,.featured-project,.secondary-project,.evidence-card,.method-grid article{border-color:#d8e4f6}
+.evidence-card{background:#fff}
+.evidence-card>a{background:#e8effa}
+.evidence-card img{background:#e8effa}
+.evidence-featured img{background:#e8effa}
+.education-card{background:#f7faff;border-color:#d4e1f5}
+.roadmap-item{border-color:#d3e0f5}
+.roadmap-now{border-color:#a9c3f3;box-shadow:0 10px 30px rgba(40,100,220,.09)}
+.site-footer{background:#e2ecfc;border-top-color:#cad9f2}
+.footer-inner p,.footer-inner>span{color:#61718c}
+@media(max-width:800px){
+  .primary-nav{background:rgba(246,249,255,.99);border-bottom-color:#cfddf5}
+}
+@media(prefers-contrast:more){
+  .hero-lead,.hero-note,.proof-item span{color:#fff}
+  .hero h1 span{color:#c9e5ff}
+}
