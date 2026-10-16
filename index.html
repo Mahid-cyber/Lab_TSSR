@@ -3,317 +3,368 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portfolio technique de Mahid Aggoune — systèmes, réseaux, déploiement, virtualisation et homelab.">
-  <title>Mahid Aggoune — Systems & Infrastructure Lab</title>
-  <meta property="og:title" content="Mahid Aggoune — Systems & Infrastructure Lab">
-  <meta property="og:description" content="Portfolio technique : Windows Server, MDT/WDS/PXE, virtualisation, Linux, Docker et homelab.">
+  <meta name="description" content="Portfolio professionnel de Mahid Aggoune : expérience systèmes et réseaux, Active Directory, déploiement Windows, MDT/WDS/PXE et virtualisation VMware ESXi.">
+  <meta name="theme-color" content="#f6f8fc">
+  <meta property="og:title" content="Mahid Aggoune — Portfolio systèmes & réseaux">
+  <meta property="og:description" content="Expériences, projets documentés et progression vers l'administration systèmes et réseaux.">
   <meta property="og:type" content="website">
-  <meta name="theme-color" content="#08111d">
+  <title>Mahid Aggoune — Portfolio systèmes & réseaux</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
   <header class="site-header">
-    <div class="container nav">
-      <a class="brand" href="#top" aria-label="Retour en haut">
-        <span class="brand-mark">&lt;/&gt;</span>
-        <span>Lab_TSSR</span>
+    <div class="container nav-shell">
+      <a class="brand" href="#top" aria-label="Mahid Aggoune, accueil">
+        <span class="brand-mark">MA</span>
+        <span class="brand-copy"><strong>Mahid Aggoune</strong><small>Portfolio IT · Systèmes & réseaux</small></span>
       </a>
-      <nav aria-label="Navigation principale">
-        <a href="#skills">Compétences</a>
-        <a href="#experience">Parcours</a>
-        <a href="#projects">Projets</a>
-        <a href="#lab">Homelab</a>
-        <a href="#method">Méthode</a>
-        <a href="https://github.com/Mahid-cyber/Lab_TSSR" target="_blank" rel="noreferrer">GitHub ↗</a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-controls="primaryNav" aria-expanded="false" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="primary-nav" id="primaryNav" aria-label="Navigation principale">
+        <a href="#profil">Profil</a>
+        <a href="#expertises">Expertises</a>
+        <a href="#parcours">Parcours</a>
+        <a href="#projets">Projets</a>
+        <a href="#progression">Progression</a>
+        <a class="nav-cta" href="https://github.com/Mahid-cyber/Lab_TSSR" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
   </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">PORTFOLIO TECHNIQUE • PROJET PHARE 2026</p>
-          <h1>Mahid Aggoune</h1>
-          <p class="hero-title">Technicien Systèmes & Réseaux</p>
-          <p class="hero-subtitle">Orientation administration systèmes & infrastructures</p>
-          <p class="hero-copy">
-            Portfolio technique basé sur des projets de laboratoire concrets :
-            Windows Server, Active Directory, MDT/WDS/PXE, virtualisation,
-            Linux, Docker et ITSM.
-          </p>
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container hero-layout">
+        <div class="hero-content">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> PORTFOLIO PROFESSIONNEL · IT INFRASTRUCTURE</p>
+          <h1>Des systèmes fiables.<br><span>Des incidents compris.</span><br>Des solutions documentées.</h1>
+          <p class="hero-lead">Je suis <strong>Mahid Aggoune</strong>, technicien systèmes et réseaux, avec une expérience en administration Active Directory, déploiement de postes Windows et virtualisation. Mon objectif : évoluer vers l’administration systèmes et réseaux.</p>
           <div class="hero-actions">
-            <a class="btn primary" href="#projects">Voir les projets</a>
-            <a class="btn secondary" href="https://github.com/Mahid-cyber/Lab_TSSR" target="_blank" rel="noreferrer">Voir le dépôt GitHub</a>
+            <a class="button button-primary" href="#projets">Découvrir mes projets <span aria-hidden="true">↓</span></a>
+            <a class="button button-secondary" href="https://github.com/Mahid-cyber/Lab_TSSR" target="_blank" rel="noreferrer">Explorer le dépôt GitHub <span aria-hidden="true">↗</span></a>
           </div>
+          <div class="hero-note"><span class="note-icon" aria-hidden="true">⌁</span><span>Une démarche orientée terrain : configuration, diagnostic, correction et validation.</span></div>
         </div>
 
-        <aside class="terminal-card" aria-label="Résumé du laboratoire">
-          <div class="terminal-top"><span></span><span></span><span></span></div>
-          <pre><code>$ whoami
-Mahid-cyber
-
-$ lab.status
-ONLINE
-
-$ core.services
-AD DS    [OK]
-DNS      [OK]
-DHCP     [OK]
-WDS      [OK]
-MDT      [OK]
-PXE      [OK]
-
-$ deployment.last
-Windows 11 26H2
-UEFI / GPT
-0 errors / 0 warnings
-</code></pre>
+        <aside class="focus-card" aria-label="Projet phare du portfolio">
+          <div class="focus-card-top">
+            <span class="micro-label">PROJET MIS EN AVANT</span>
+            <span class="live-pill"><span></span> Documenté</span>
+          </div>
+          <div class="focus-illustration" aria-hidden="true">
+            <div class="server-stack">
+              <div class="server-unit"><span></span><i></i><i></i><b>AD DS · DNS · DHCP</b></div>
+              <div class="server-unit"><span></span><i></i><i></i><b>WDS · MDT</b></div>
+            </div>
+            <div class="flow-line"><span></span><span></span><span></span></div>
+            <div class="client-unit"><span class="windows-mark">▦</span><b>Windows 11</b><small>PXE · UEFI · GPT</small></div>
+          </div>
+          <p class="focus-kicker">Étude de cas · Windows Server 2022</p>
+          <h2>Déploiement automatisé Windows 11 26H2</h2>
+          <p>Du démarrage PXE au diagnostic d’une erreur MDT, jusqu’à la validation sur environnement virtuel et machine physique.</p>
+          <div class="focus-footer">
+            <span class="result-check">✓ 0 erreur · 0 avertissement</span>
+            <a href="https://github.com/Mahid-cyber/Lab_TSSR/blob/main/docs/mdt-wds-windows11-26h2.md" target="_blank" rel="noreferrer" aria-label="Lire l’étude de cas MDT/WDS">Lire l’étude de cas <span aria-hidden="true">↗</span></a>
+          </div>
         </aside>
       </div>
     </section>
 
-    <section class="stats">
-      <div class="container stats-grid">
-        <div class="stat"><strong>2026</strong><span>Projet phare documenté</span></div>
-        <div class="stat"><strong>02</strong><span>Environnements validés : Hyper-V + physique</span></div>
-        <div class="stat"><strong>UEFI</strong><span>PXE et partitionnement GPT maîtrisés en lab</span></div>
-        <div class="stat"><strong>0 / 0</strong><span>Erreur / avertissement sur le déploiement final</span></div>
+    <section class="proof-strip" aria-label="Repères du portfolio">
+      <div class="container proof-grid">
+        <div class="proof-item"><strong>2020—2025</strong><span>Expériences IT présentées</span></div>
+        <div class="proof-item"><strong>2 environnements</strong><span>Validation du projet MDT</span></div>
+        <div class="proof-item"><strong>1 étude de cas</strong><span>Diagnostic documenté avec preuves</span></div>
+        <div class="proof-item"><strong>Terrain + lab</strong><span>Expérience et pratique technique</span></div>
       </div>
     </section>
 
-    <section id="skills" class="section">
-      <div class="container">
+    <section class="section section-white" id="profil">
+      <div class="container intro-grid">
         <div class="section-heading">
-          <p class="eyebrow">01 — COMPÉTENCES</p>
-          <h2>Un environnement orienté infrastructure</h2>
-          <p>Les compétences présentées ici correspondent à des technologies réellement utilisées dans le laboratoire.</p>
+          <p class="eyebrow">01 · MON POSITIONNEMENT</p>
+          <h2>Une base opérationnelle, une progression ciblée.</h2>
         </div>
+        <div class="intro-copy">
+          <p>Mon parcours m’a amené à préparer et déployer des postes, administrer des objets Active Directory et participer à un projet de virtualisation sur serveur Dell. Dans mon laboratoire, je prolonge ces acquis par des scénarios reproductibles et des diagnostics détaillés.</p>
+          <p>Je privilégie une approche structurée : comprendre le fonctionnement attendu, isoler la cause d’un incident, appliquer une correction ciblée puis conserver une preuve du résultat.</p>
+          <a class="text-link" href="https://github.com/Mahid-cyber/Lab_TSSR/blob/main/docs/profile.md" target="_blank" rel="noreferrer">Consulter mon profil détaillé <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="container value-grid">
+        <article class="value-card">
+          <span class="value-number">01</span>
+          <h3>Exploiter</h3>
+          <p>Gérer les comptes, les accès et les postes dans un environnement Windows et Active Directory.</p>
+        </article>
+        <article class="value-card">
+          <span class="value-number">02</span>
+          <h3>Déployer</h3>
+          <p>Préparer et automatiser l’installation des postes, intégrer les pilotes et valider les démarrages PXE.</p>
+        </article>
+        <article class="value-card">
+          <span class="value-number">03</span>
+          <h3>Diagnostiquer</h3>
+          <p>Procéder par hypothèses vérifiables, examiner les journaux et documenter les correctifs retenus.</p>
+        </article>
+      </div>
+    </section>
 
-        <div class="cards">
-          <article class="card">
-            <span class="icon">AD</span>
-            <h3>Windows Server</h3>
-            <p>Active Directory, DNS, DHCP, WDS et services nécessaires au fonctionnement du domaine.</p>
-            <div class="tags"><span>AD DS</span><span>DNS</span><span>DHCP</span><span>WDS</span></div>
+    <section class="section section-tint" id="expertises">
+      <div class="container">
+        <div class="section-heading section-heading-wide">
+          <p class="eyebrow">02 · DOMAINES TECHNIQUES</p>
+          <h2>Des compétences reliées à des situations concrètes.</h2>
+          <p>Les repères ci-dessous distinguent l’expérience professionnelle, les projets documentés et les sujets que je continue d’approfondir.</p>
+        </div>
+        <div class="legend">
+          <span><i class="legend-dot dot-work"></i> Expérience professionnelle</span>
+          <span><i class="legend-dot dot-project"></i> Projet documenté</span>
+          <span><i class="legend-dot dot-learning"></i> Approfondissement</span>
+        </div>
+        <div class="expertise-grid">
+          <article class="expertise-card">
+            <div class="expertise-icon icon-blue">AD</div>
+            <div class="card-meta"><span class="status-tag status-work">Expérience professionnelle</span></div>
+            <h3>Windows & identité</h3>
+            <p>Gestion Active Directory, intégration de postes au domaine, GPO, droits d’accès et déploiement de logiciels.</p>
+            <div class="chips"><span>Active Directory</span><span>GPO</span><span>Windows 10/11</span><span>Windows Server</span></div>
           </article>
-
-          <article class="card">
-            <span class="icon">PXE</span>
-            <h3>Déploiement</h3>
-            <p>MDT, WinPE, PXE, UEFI/GPT et intégration de pilotes pour automatiser l'installation des postes.</p>
-            <div class="tags"><span>MDT</span><span>WDS</span><span>WinPE</span><span>PXE</span></div>
+          <article class="expertise-card">
+            <div class="expertise-icon icon-green">PXE</div>
+            <div class="card-meta"><span class="status-tag status-project">Projet documenté</span></div>
+            <h3>Déploiement automatisé</h3>
+            <p>Chaîne MDT/WDS, WinPE, démarrage PXE UEFI, partitions GPT, pilotes et dépannage BCDBoot.</p>
+            <div class="chips"><span>MDT</span><span>WDS</span><span>WinPE</span><span>UEFI/GPT</span></div>
           </article>
-
-          <article class="card">
-            <span class="icon">VM</span>
+          <article class="expertise-card">
+            <div class="expertise-icon icon-violet">VM</div>
+            <div class="card-meta"><span class="status-tag status-work">Expérience professionnelle</span></div>
             <h3>Virtualisation</h3>
-            <p>Conception de machines et scénarios de test avec Hyper-V, VMware/ESXi et Proxmox.</p>
-            <div class="tags"><span>Hyper-V</span><span>VMware</span><span>ESXi</span><span>Proxmox</span></div>
+            <p>Installation et configuration d’ESXi sur serveur Dell, création de VM et participation à une migration Windows Server.</p>
+            <div class="chips"><span>VMware ESXi</span><span>Hyper-V</span><span>Machines virtuelles</span></div>
           </article>
-
-          <article class="card">
-            <span class="icon">LIN</span>
-            <h3>Linux & conteneurs</h3>
-            <p>Administration Ubuntu/Linux et mise en place de services avec Docker et Docker Compose.</p>
-            <div class="tags"><span>Linux</span><span>Ubuntu</span><span>Docker</span><span>Compose</span></div>
+          <article class="expertise-card">
+            <div class="expertise-icon icon-orange">NET</div>
+            <div class="card-meta"><span class="status-tag status-learning">À approfondir</span></div>
+            <h3>Réseaux & connectivité</h3>
+            <p>Fondamentaux TCP/IP, DNS, DHCP, VLAN, routage, pare-feu et outils de diagnostic réseau.</p>
+            <div class="chips"><span>TCP/IP</span><span>DNS/DHCP</span><span>VLAN</span><span>Wireshark</span></div>
           </article>
-
-          <article class="card">
-            <span class="icon">ITSM</span>
-            <h3>Gestion de parc</h3>
-            <p>Travaux de laboratoire autour de GLPI et de l'intégration d'une solution ITSM.</p>
-            <div class="tags"><span>GLPI</span><span>ITSM</span></div>
+          <article class="expertise-card">
+            <div class="expertise-icon icon-teal">LIN</div>
+            <div class="card-meta"><span class="status-tag status-learning">Laboratoire / pratique</span></div>
+            <h3>Linux & services</h3>
+            <p>Installation et administration de base Linux, navigation, permissions et exploration des services hébergés.</p>
+            <div class="chips"><span>Ubuntu</span><span>Debian</span><span>SSH</span><span>Docker</span></div>
           </article>
-
-          <article class="card">
-            <span class="icon">PS</span>
-            <h3>Scripting & diagnostic</h3>
-            <p>PowerShell, Bash et utilisation d'outils système pour diagnostiquer et documenter les incidents.</p>
-            <div class="tags"><span>PowerShell</span><span>Bash</span><span>DiskPart</span><span>BCDBoot</span></div>
+          <article class="expertise-card">
+            <div class="expertise-icon icon-slate">OPS</div>
+            <div class="card-meta"><span class="status-tag status-learning">En progression</span></div>
+            <h3>Automatisation & exploitation</h3>
+            <p>Objectif de progression sur les scripts d’administration, la supervision, les sauvegardes et les procédures de reprise.</p>
+            <div class="chips"><span>PowerShell</span><span>Bash</span><span>Zabbix</span><span>GLPI</span></div>
           </article>
         </div>
       </div>
     </section>
 
-
-    <section id="experience" class="section">
+    <section class="section section-white" id="parcours">
       <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">02 — PARCOURS</p>
-          <h2>Expérience professionnelle</h2>
-          <p></p>
+        <div class="section-heading section-heading-wide">
+          <p class="eyebrow">03 · PARCOURS PROFESSIONNEL</p>
+          <h2>Une expérience construite sur le terrain.</h2>
+          <p>Des missions de déploiement et de gestion de parc, jusqu’à l’administration des services et à la virtualisation.</p>
         </div>
-
-        <div class="timeline career">
-          <div class="timeline-item"><span>2024</span><div><h3>Gestionnaire Infrastructures Matériel Logiciel</h3><p><strong>Direction Régionale du Service Médical — Marseille</strong><br>Gestion Active Directory, intégration de postes au domaine, stratégies de groupe, gestion des droits d'accès, déploiement de logiciels du socle commun par GPO et gestion de parc.</p></div></div>
-          <div class="timeline-item"><span>2023</span><div><h3>Analyste IT</h3><p><strong>Caisse Primaire d’Assurance Maladie — Marseille</strong><br>Préparation et déploiement de postes Windows 10/11, migration vers Windows 11, intégration Active Directory, installation du socle technique et accompagnement pendant la transition.</p></div></div>
-          <div class="timeline-item"><span>2022</span><div><h3>Stage — Projet de virtualisation</h3><p><strong>Direction Régionale du Service Médical — Marseille</strong><br>Installation de VMware ESXi sur un serveur Dell, configuration initiale, création de machines virtuelles et participation à une migration de services Windows Server 2012 vers Windows Server 2016.</p></div></div>
-          <div class="timeline-item"><span>2020</span><div><h3>Intérim — Déploiement Windows 10</h3><p><strong>Direction Régionale du Service Médical — Marseille</strong><br>Préparation, masterisation et déploiement de postes, gestion des profils et intégration Active Directory, installation de logiciels du socle commun et suivi du parc.</p></div></div>
+        <div class="career-layout">
+          <div class="career-timeline">
+            <article class="career-item">
+              <div class="career-date"><span>2024</span><small>Mars 2024 — Mars 2025</small></div>
+              <div class="career-body">
+                <span class="career-marker"></span>
+                <p class="career-company">Direction Régionale du Service Médical · Marseille</p>
+                <h3>Gestionnaire Infrastructures Matériel Logiciel</h3>
+                <p>Administration Active Directory, intégration des postes au domaine, stratégies de groupe, gestion des droits, déploiement de logiciels par GPO et gestion de parc informatique.</p>
+              </div>
+            </article>
+            <article class="career-item">
+              <div class="career-date"><span>2023—24</span><small>Décembre 2023 — Mars 2024</small></div>
+              <div class="career-body">
+                <span class="career-marker"></span>
+                <p class="career-company">Caisse Primaire d’Assurance Maladie · Marseille</p>
+                <h3>Analyste IT</h3>
+                <p>Préparation et déploiement de postes Windows 10/11, contribution aux migrations Windows 11, intégration Active Directory et installation du socle technique.</p>
+              </div>
+            </article>
+            <article class="career-item">
+              <div class="career-date"><span>2022</span><small>Juillet — Août 2022</small></div>
+              <div class="career-body">
+                <span class="career-marker"></span>
+                <p class="career-company">Direction Régionale du Service Médical · Marseille</p>
+                <h3>Stage — Projet de virtualisation</h3>
+                <p>Installation et configuration de VMware ESXi sur serveur Dell, création de machines virtuelles et participation à une migration Windows Server 2012 vers Windows Server 2016.</p>
+              </div>
+            </article>
+            <article class="career-item">
+              <div class="career-date"><span>2020</span><small>Juillet — Novembre 2020</small></div>
+              <div class="career-body">
+                <span class="career-marker"></span>
+                <p class="career-company">Direction Régionale du Service Médical · Marseille</p>
+                <h3>Intérim — Déploiement Windows 10</h3>
+                <p>Préparation et masterisation de postes, déploiement d’images Windows 10, intégration au domaine, installation du socle logiciel et suivi des équipements.</p>
+              </div>
+            </article>
+          </div>
+          <aside class="education-card">
+            <p class="eyebrow">FORMATION</p>
+            <div class="education-item">
+              <span class="education-year">2022</span>
+              <h3>Technicien Supérieur en Systèmes et Réseaux</h3>
+              <p>GRETA-CFA Provence · Aix-en-Provence</p>
+            </div>
+            <div class="education-item">
+              <span class="education-year">2017</span>
+              <h3>Installation et dépannage en informatique</h3>
+              <p>AFPA · Marseille</p>
+            </div>
+            <div class="education-footnote">Français : langue maternelle<br>Anglais : vocabulaire du quotidien</div>
+          </aside>
         </div>
       </div>
     </section>
 
-    <section id="projects" class="section section-alt">
+    <section class="section project-section" id="projets">
       <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">03 — PROJETS</p>
-          <h2>Projets réalisés</h2>
+        <div class="section-heading section-heading-wide">
+          <p class="eyebrow">04 · RÉALISATIONS</p>
+          <h2>Le détail compte : contexte, résolution, preuve.</h2>
+          <p>Un projet phare documenté, complété par une expérience de virtualisation issue du parcours professionnel.</p>
         </div>
 
-        <article class="project featured">
-          <div class="project-main">
-            <p class="project-kicker">PROJET PHARE 2026 • FEATURED PROJECT</p>
+        <article class="featured-project">
+          <div class="featured-project-main">
+            <div class="project-label-row"><span class="project-label">PROJET PHARE</span><span class="project-year">2026 · Laboratoire</span></div>
             <h3>Déploiement automatisé de Windows 11 26H2</h3>
-            <p>
-              Mise en place et validation d'une chaîne de déploiement complète
-              basée sur Windows Server 2022, WDS, MDT et PXE UEFI.
-            </p>
-
-            <div class="project-flow" aria-label="Chaîne de déploiement">
-              <span>Server 2022</span><b>→</b><span>WDS / MDT</span><b>→</b><span>PXE UEFI</span><b>→</b><span>WinPE</span><b>→</b><span>Windows 11 26H2</span>
+            <p class="project-summary">Construction d’une chaîne de déploiement à partir de Windows Server 2022, avec Active Directory, DNS, DHCP, WDS et MDT. Le client démarre en PXE/UEFI, charge WinPE puis déploie Windows 11 sur un disque GPT.</p>
+            <div class="project-steps">
+              <div><span>01</span><strong>Construire</strong><small>Services de déploiement</small></div>
+              <div><span>02</span><strong>Diagnostiquer</strong><small>Erreur MDT 5616 / 15299</small></div>
+              <div><span>03</span><strong>Corriger</strong><small>Outils MDT et WinPE</small></div>
+              <div><span>04</span><strong>Valider</strong><small>Hyper-V et PC physique</small></div>
             </div>
-
-            <div class="case-study">
-              <div><strong>Incident</strong><span>5616 / 15299 — Verify BCDBootEx</span></div>
-              <div><strong>Diagnostic</strong><span>UEFI, GPT, lettres de volumes, BCDBoot et pilotes WinPE</span></div>
-              <div><strong>Correction</strong><span>Microsoft.BDD.Utility.dll 6.3.8456.1001 + régénération des images</span></div>
-              <div><strong>Validation</strong><span>Déploiement réussi sur Hyper-V puis serveur physique</span></div>
-            </div>
+            <div class="project-tags"><span>Windows Server 2022</span><span>MDT</span><span>WDS</span><span>PXE / UEFI</span><span>GPT</span><span>WinPE</span></div>
+            <a class="button button-primary" href="https://github.com/Mahid-cyber/Lab_TSSR/blob/main/docs/mdt-wds-windows11-26h2.md" target="_blank" rel="noreferrer">Lire l’étude de cas complète <span aria-hidden="true">↗</span></a>
           </div>
-
-          <div class="project-result">
-            <div class="result-badge">SUCCESS</div>
-            <div class="result-number">0 / 0</div>
-            <p>erreur / avertissement lors du déploiement final</p>
-            <a class="text-link" href="docs/mdt-wds-windows11-26h2.md">Voir l’étude de cas ↗</a><a class="text-link" href="https://github.com/Mahid-cyber/Lab_TSSR" target="_blank" rel="noreferrer">Voir le dépôt ↗</a>
-          </div>
+          <aside class="project-outcome">
+            <span class="outcome-icon" aria-hidden="true">✓</span>
+            <p class="outcome-label">RÉSULTAT FINAL</p>
+            <strong>0 / 0</strong>
+            <p>Erreur / avertissement dans le résumé de déploiement final.</p>
+            <div class="outcome-divider"></div>
+            <span class="outcome-detail">Validé sur Hyper-V et sur un poste physique.</span>
+          </aside>
         </article>
 
+        <div class="evidence-header">
+          <div><p class="eyebrow">PREUVES DU LABORATOIRE</p><h3>Le projet, en images</h3></div>
+          <p>Captures de diagnostic et de validation associées à l’étude de cas.</p>
+        </div>
+        <div class="evidence-grid">
+          <figure class="evidence-card">
+            <a href="docs/screenshots/01-erreur-5616.webp" target="_blank" rel="noreferrer"><img src="docs/screenshots/01-erreur-5616.webp" loading="lazy" alt="Capture du message d’erreur MDT 5616 / 15299"></a>
+            <figcaption><strong>01 · Incident initial</strong><span>Erreur Verify BCDBootEx relevée pendant le déploiement.</span></figcaption>
+          </figure>
+          <figure class="evidence-card">
+            <a href="docs/screenshots/02-partitions-gpt.webp" target="_blank" rel="noreferrer"><img src="docs/screenshots/02-partitions-gpt.webp" loading="lazy" alt="Capture du partitionnement GPT et EFI dans WinPE"></a>
+            <figcaption><strong>02 · Vérification GPT / EFI</strong><span>Contrôle de la structure des volumes sur le client.</span></figcaption>
+          </figure>
+          <figure class="evidence-card">
+            <a href="docs/screenshots/03-dll-avant-correctif.webp" target="_blank" rel="noreferrer"><img src="docs/screenshots/03-dll-avant-correctif.webp" loading="lazy" alt="Capture de la version initiale de Microsoft.BDD.Utility.dll"></a>
+            <figcaption><strong>03 · Analyse de l’outil MDT</strong><span>Version initiale du fichier examiné pendant le diagnostic.</span></figcaption>
+          </figure>
+          <figure class="evidence-card">
+            <a href="docs/screenshots/04-deploiement-success.webp" target="_blank" rel="noreferrer"><img src="docs/screenshots/04-deploiement-success.webp" loading="lazy" alt="Capture du résumé de déploiement réussi"></a>
+            <figcaption><strong>04 · Déploiement validé</strong><span>Résumé final indiquant zéro erreur et zéro avertissement.</span></figcaption>
+          </figure>
+          <figure class="evidence-card evidence-featured">
+            <a href="docs/screenshots/05-deploiement-final.webp.png" target="_blank" rel="noreferrer"><img src="docs/screenshots/05-deploiement-final.webp.png" loading="lazy" alt="Capture finale du déploiement Windows 11 sur le poste client"></a>
+            <figcaption><strong>05 · Résultat sur le poste client</strong><span>Capture complémentaire du déploiement final.</span></figcaption>
+          </figure>
+        </div>
 
-        <section class="evidence-section" aria-labelledby="evidence-title">
-          <div class="evidence-heading">
-            <p class="project-kicker">PREUVES VISUELLES</p>
-            <h3 id="evidence-title">Diagnostic & validation</h3>
-            <p>Une sélection de captures réelles réalisées pendant le dépannage et la validation du déploiement.</p>
+        <div class="secondary-project">
+          <div class="secondary-project-icon">ESXi</div>
+          <div>
+            <p class="project-label">EXPÉRIENCE PROFESSIONNELLE · 2022</p>
+            <h3>Virtualisation VMware ESXi et migration Windows Server</h3>
+            <p>Installation et configuration d’ESXi sur un serveur Dell, création de machines virtuelles et participation à une migration de Windows Server 2012 vers 2016.</p>
+            <a class="text-link" href="https://github.com/Mahid-cyber/Lab_TSSR/blob/main/docs/vmware-esxi-migration.md" target="_blank" rel="noreferrer">Lire la fiche expérience <span aria-hidden="true">→</span></a>
           </div>
-          <div class="evidence-grid">
-            <figure class="evidence-card">
-              <img src="docs/screenshots/01-erreur-5616.webp" alt="Écran de déploiement MDT affichant l'erreur 5616 / 15299 Verify BCDBootEx" loading="lazy">
-              <figcaption><strong>01 — Incident</strong><span>Erreur MDT 5616 / 15299 — Verify BCDBootEx</span></figcaption>
-            </figure>
-            <figure class="evidence-card">
-              <img src="docs/screenshots/02-partitions-gpt.webp" alt="DiskPart affichant les partitions GPT EFI, Windows et Recovery" loading="lazy">
-              <figcaption><strong>02 — Vérification</strong><span>Partitionnement GPT / EFI et volumes Windows dans WinPE</span></figcaption>
-            </figure>
-            <figure class="evidence-card">
-              <img src="docs/screenshots/03-dll-avant-correctif.webp" alt="Propriétés de Microsoft.BDD.Utility.dll avant le correctif" loading="lazy">
-              <figcaption><strong>03 — Version initiale</strong><span>Microsoft.BDD.Utility.dll — version 6.3.8456.1000</span></figcaption>
-            </figure>
-            <figure class="evidence-card">
-              <img src="docs/screenshots/04-deploiement-success.webp" alt="Deployment Summary affichant Success, zéro erreur et zéro avertissement" loading="lazy">
-              <figcaption><strong>04 — Validation</strong><span>Windows 11 26H2 — Success, 0 erreur / 0 avertissement</span></figcaption>
-            </figure>
-          </div>
-          <div class="evidence-grid evidence-final">
-            <figure class="evidence-card evidence-featured">
-              <img src="docs/screenshots/05-deploiement-final.webp.png" alt="Windows 11 26H2 installé après le déploiement MDT avec le Deployment Summary Success à zéro erreur et zéro avertissement" loading="lazy">
-              <figcaption><strong>05 — Preuve finale</strong><span>Windows 11 26H2 opérationnel après déploiement MDT — résultat final documenté</span></figcaption>
-            </figure>
-          </div>
-          <p class="evidence-note">Captures du laboratoire. Les informations sensibles doivent rester exclues avant publication.</p>
-        </section>
-        <div class="cards project-grid">
-          <article class="card project-small">
-            <span class="icon">AD</span>
-            <h3>Active Directory / DNS / DHCP</h3>
-            <p>Laboratoire Windows Server consacré au domaine, aux services réseau et à l'administration centralisée.</p>
-            <span class="status">Lab à documenter</span>
-          </article>
-          <article class="card project-small">
-            <span class="icon">VM</span>
-            <h3>Virtualisation & Homelab</h3>
-            <p>Hyper-V, VMware/ESXi et Proxmox pour construire et tester différents scénarios d'infrastructure.</p>
-            <span class="status">Lab à documenter</span>
-          </article>
-          <article class="card project-small">
-            <span class="icon">LIN</span>
-            <h3>Linux / Docker</h3>
-            <p>Administration Linux et déploiement de services conteneurisés avec Docker et Docker Compose.</p>
-            <span class="status">Lab à documenter</span>
-          </article>
-          <article class="card project-small">
-            <span class="icon">ITSM</span>
-            <h3>GLPI / ITSM</h3>
-            <p>Installation et expérimentation d'une solution de gestion de parc et de services IT.</p>
-            <span class="status">Lab à documenter</span>
-          </article>
-          <article class="card project-small">
-            <span class="icon">MON</span>
-            <h3>Supervision</h3>
-            <p>Travaux de laboratoire autour de Nagios et Zabbix pour explorer la supervision des systèmes et services.</p>
-            <span class="status">Lab à documenter</span>
-          </article>
-          <article class="card project-small">
-            <span class="icon">PS</span>
-            <h3>Automatisation & scripts</h3>
-            <p>PowerShell, Bash et scripts d'administration pour automatiser des tâches et faciliter le diagnostic.</p>
-            <span class="status">Lab à documenter</span>
-          </article>
         </div>
       </div>
     </section>
 
-    <section id="lab" class="section">
-      <div class="container">
+    <section class="section section-tint" id="progression">
+      <div class="container roadmap-layout">
         <div class="section-heading">
-          <p class="eyebrow">04 — HOMELAB</p>
-          <h2>Architecture de laboratoire</h2>
-          <p>Une représentation volontairement générique : aucune adresse ou information sensible n'est publiée.</p>
+          <p class="eyebrow">05 · PROGRESSION</p>
+          <h2>Construire les prochaines briques, sans se disperser.</h2>
+          <p>Une progression volontairement structurée pour consolider les fondamentaux de l’administration systèmes et réseaux.</p>
+          <a class="text-link" href="https://github.com/Mahid-cyber/Lab_TSSR/blob/main/docs/roadmap.md" target="_blank" rel="noreferrer">Voir la feuille de route complète <span aria-hidden="true">→</span></a>
         </div>
-
-        <div class="architecture">
-          <div class="arch-row"><span>Client / VM</span><b>↕</b><span>PXE / réseau</span></div>
-          <div class="arch-line"></div>
-          <div class="arch-row"><span class="node">WDS</span><span class="node">MDT</span><span class="node">DHCP / DNS</span><span class="node">Active Directory</span></div>
-          <div class="arch-line"></div>
-          <div class="arch-row"><span class="node">Windows Server 2022</span><span class="node">Hyper-V</span><span class="node">VMware</span><span class="node">Proxmox</span></div>
+        <div class="roadmap-list">
+          <article class="roadmap-item roadmap-now">
+            <span class="roadmap-number">01</span>
+            <div><span class="roadmap-state">PROCHAINE ÉTAPE</span><h3>Windows Server & Active Directory</h3><p>Formaliser la structure du domaine, les DNS, les GPO, les groupes et les permissions.</p></div>
+          </article>
+          <article class="roadmap-item">
+            <span class="roadmap-number">02</span>
+            <div><span class="roadmap-state">ENSUITE</span><h3>Fichiers, sauvegarde et restauration</h3><p>Construire un serveur de fichiers, tester les accès et prouver qu’une restauration fonctionne.</p></div>
+          </article>
+          <article class="roadmap-item">
+            <span class="roadmap-number">03</span>
+            <div><span class="roadmap-state">PUIS</span><h3>PowerShell & supervision</h3><p>Automatiser des tâches d’exploitation, suivre l’état des services et documenter un incident.</p></div>
+          </article>
         </div>
       </div>
     </section>
 
-    <section id="method" class="section section-alt">
-      <div class="container">
+    <section class="section section-white" id="methode">
+      <div class="container method-layout">
         <div class="section-heading">
-          <p class="eyebrow">05 — MÉTHODE</p>
-          <h2>La partie la plus importante : le diagnostic</h2>
+          <p class="eyebrow">06 · MA MÉTHODE</p>
+          <h2>Résoudre un problème de façon reproductible.</h2>
+          <p>Les captures, les commandes et les résultats attendus servent à expliquer la démarche, pas seulement à montrer une installation terminée.</p>
         </div>
-
-        <div class="timeline">
-          <div class="timeline-item"><span>01</span><div><h3>Observer</h3><p>Collecter le message d'erreur, les journaux et l'état réel de l'environnement.</p></div></div>
-          <div class="timeline-item"><span>02</span><div><h3>Isoler</h3><p>Tester séparément PXE, réseau, partitions GPT/UEFI et BCDBoot pour éviter les suppositions.</p></div></div>
-          <div class="timeline-item"><span>03</span><div><h3>Corriger</h3><p>Appliquer une correction ciblée puis régénérer les composants impactés.</p></div></div>
-          <div class="timeline-item"><span>04</span><div><h3>Valider</h3><p>Reproduire le déploiement sur plusieurs environnements et conserver les preuves.</p></div></div>
+        <div class="method-grid">
+          <article><span>01</span><h3>Observer</h3><p>Relever le message exact, l’environnement et les journaux utiles.</p></article>
+          <article><span>02</span><h3>Isoler</h3><p>Tester une hypothèse à la fois et limiter les modifications.</p></article>
+          <article><span>03</span><h3>Corriger</h3><p>Appliquer une correction ciblée et noter ce qui a changé.</p></article>
+          <article><span>04</span><h3>Valider</h3><p>Rejouer le scénario, vérifier le résultat et garder une preuve.</p></article>
         </div>
       </div>
     </section>
 
-    <section class="cta">
-      <div class="container cta-inner">
+    <section class="closing-section">
+      <div class="container closing-panel">
         <div>
-          <p class="eyebrow">OPEN LAB</p>
-          <h2>Voir le travail dans GitHub</h2>
-          <p>Le dépôt contient la documentation technique et évoluera avec les prochains projets du laboratoire.</p>
+          <p class="eyebrow">OBJECTIF PROFESSIONNEL</p>
+          <h2>Évoluer vers l’administration systèmes & réseaux.</h2>
+          <p>Ce portfolio suit un parcours en construction : des expériences professionnelles, des projets documentés et une montée en compétences progressive.</p>
         </div>
-        <a class="btn primary" href="https://github.com/Mahid-cyber/Lab_TSSR" target="_blank" rel="noreferrer">Ouvrir Lab_TSSR ↗</a>
+        <a class="button button-light" href="https://github.com/Mahid-cyber/Lab_TSSR" target="_blank" rel="noreferrer">Accéder au dépôt GitHub <span aria-hidden="true">↗</span></a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <span>© <span id="year"></span> Mahid Aggoune</span>
-      <span>Lab_TSSR • Systems & Infrastructure</span>
+      <a class="footer-brand" href="#top">MA<span>·</span> Mahid Aggoune</a>
+      <p>Portfolio professionnel · Systèmes, réseaux & infrastructure</p>
+      <a href="https://github.com/Mahid-cyber/Lab_TSSR" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      <span>© <span id="year"></span></span>
     </div>
   </footer>
 
